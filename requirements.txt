@@ -12,3 +12,5 @@ google-cloud-bigquery-storage==1.1.0 # Suppresses a harmless error from beam
 natsort==8.1.0
 gdown==4.5.4
 tqdm==4.64.1
+# Fix PIL/numpy typing incompatibility with TF 2.6.x era stacks
+Pillow==9.5.0
